@@ -1,0 +1,69 @@
+---
+layout: default
+---
+<div class="header">
+    <img src="../assets/websiteheader.png"/>
+</div>
+<div class="short-about">
+  <h1>Hi, I'm Bianca Aguilar! </h1>
+  <p>I'm an artist and designer passionate about the intertwine of technology with the humanities. Soon, I'll be taking up Interdisciplinary Studies (CS Programming & Information Design) at Ateneo de Manila University.</p>
+</div>
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+  <div class="grid">
+    {%- for post in site.posts -%}
+    <div class="grid-item">
+      <a href="{{ post.url | relative_url }}">
+          <img src="{{ post.thumbnail }}" alt="{{ post.title | escape }}"/>
+      </a>
+    </div>
+    {%- endfor -%} 
+  </div>
+  {%- endif -%}
+  <script src="../js/jquery-3.4.1.js"></script>
+  <script src="../js/isotope.pckd.min.js"></script>
+  <script src="../js/packery-mode.pckd.min.js"></script>
+  <script src="../js/custom.js"></script>
+  <!--
+  {%- if site.posts.size > 0 -%}
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+      <li>
+        <a href="{{ post.url | relative_url }}">
+        <img src="{{ post.thumbnail | crop: 'center', scale: 2 }}" alt="{{ post.title | escape }}"/>
+        </a>
+      </li>
+      {%- endfor -%}  
+    </ul>
+  {%- endif -%}
+  -->
+<!--
+  {%- if site.posts.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+      <li>
+        <img src="{{ post.thumbnail }}" />
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
+-->
+
+</div>
