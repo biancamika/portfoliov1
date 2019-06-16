@@ -20,9 +20,12 @@ layout: default
   <div class="grid container-fluid">
     {%- for post in site.posts -%}
     <div class="row">
-      <div class="grid-item col-4" {% if post.thumbnail %}style="background-image:url({{ post.thumbnail }}); background-position:center; background-size:cover;"{% endif %}>
+      <!--
+      <div class="grid-item col-sm-3" {% if post.thumbnail %}style="background-image:url({{ post.thumbnail }}); background-position:center; background-size:cover;"{% endif %}>
+      -->
+      <div class="grid-item col-sm-3 col-md-4">
         <a href="{{ post.url | relative_url }}">
-            <!--<img src="{{ post.thumbnail }}" alt="{{ post.title | escape }}"/>-->
+            <img src="{{ post.thumbnail }}" alt="{{ post.title | escape }}"/>
             <div class="grid-item-hover">
               <div class="item-info">
                 <h2 class="post-title">{{ post.title | escape }}</h2>
