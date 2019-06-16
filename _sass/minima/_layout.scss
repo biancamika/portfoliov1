@@ -196,7 +196,7 @@
    * Page content
    */
   .page-content {
-    padding: $spacing-unit 0;
+    /*padding: $spacing-unit 0;*/
     flex: 1;
   }
   
@@ -220,21 +220,9 @@
       //margin-bottom: $spacing-unit;
       display:inline-block;
       width:calc(100% / 3);
-
-      > img {
-        width:100%;
-      }
     }
   }
   
-  .grid {
-    display:block;
-  }
-
-  .grid-item {
-    width: calc(100% / 3);
-  }
-
   .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
@@ -255,6 +243,7 @@
   }
   
   .post-title {
+    font-family: $alt-font-family;
     @include relative-font-size(2.625);
     letter-spacing: -1px;
     line-height: 1;

@@ -15,20 +15,35 @@ layout: default
 
   {{ content }}
 
+
   {%- if site.posts.size > 0 -%}
-  <div class="grid">
+  <div class="grid container-fluid">
     {%- for post in site.posts -%}
-    <div class="grid-item">
-      <a href="{{ post.url | relative_url }}">
-          <img src="{{ post.thumbnail }}" alt="{{ post.title | escape }}"/>
-      </a>
+    <div class="row">
+      <div class="grid-item col-4" {% if post.thumbnail %}style="background-image:url({{ post.thumbnail }}); background-position:center; background-size:cover;"{% endif %}>
+        <a href="{{ post.url | relative_url }}">
+            <!--<img src="{{ post.thumbnail }}" alt="{{ post.title | escape }}"/>-->
+            <div class="grid-item-hover">
+              <div class="item-info">
+                <h2 class="post-title">{{ post.title | escape }}</h2>
+                <p>{{ post.categories }}</p>
+              </div>
+            </div>
+        </a>
+      </div>
     </div>
     {%- endfor -%} 
   </div>
   {%- endif -%}
+
+  <!--jquery-->
   <script src="../js/jquery-3.4.1.js"></script>
+  <!--plugins-->
+  <script src="../js/bootstrap.min.js"></script>
   <script src="../js/isotope.pckd.min.js"></script>
   <script src="../js/packery-mode.pckd.min.js"></script>
+  <script src="../js/imagesloaded.pckd.min.js"></script>
+  <!--custom-->
   <script src="../js/custom.js"></script>
   <!--
   {%- if site.posts.size > 0 -%}

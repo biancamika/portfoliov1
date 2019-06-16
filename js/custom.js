@@ -1,20 +1,26 @@
-$(window).load(function () {
+$(window).on('load', function () {
+//isotope start
 
-//isotope
 var $grid = $('.grid').isotope({
-    layoutMode: 'packery',
-    itemSelector: '.grid-item',
+  layoutMode: 'packery',
+  itemSelector: '.grid-item',
   percentPosition: true,
-    packery: {
-    gutter: 20
+  packery: {
+  gutter: 0
   }
-  });
+});
 
-/*
-$('.grid').isotope({
-    // options
-    itemSelector: '.grid-item',
-    layoutMode: 'masonry'
-  });
-*/
+//layout isotope after images load
+
+$grid.imagesLoaded().progress( function() {
+  $grid.isotope('layout');
+});
+
+
+//filter in isotope
+$('.links').on( 'click', 'a', function() {
+  var filterValue = $(this).attr('data-filter');
+  $grid.isotope({ filter: filterValue });
+});
+
 });

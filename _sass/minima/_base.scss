@@ -217,7 +217,61 @@
     }
  }
 
+/* isotope */
 
+.grid {
+  width: 100%;
+  height:100%;
+  max-width: 100%;
+  position:relative;
+}
+
+.grid:after {
+  content: '';
+  display:block;
+  clear: both;
+}
+
+.grid-item {
+  /*width: calc(100% / 3);*/
+  height:450px;
+  float:left;
+
+  img {
+    display:block;
+    width:100%;
+    max-width:100%;
+  }
+
+  a {
+    text-decoration:none;
+  }
+}
+
+/* hover grid item*/
+
+.grid-item .grid-item-hover {
+  opacity:0;
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  background-image: linear-gradient(to bottom, rgba($brand-color,0.9), rgba($shade-color,0.7));
+  transition: 0.5s ease;
+
+    .item-info {
+      text-align:center;
+      position: absolute;
+      top: 30%;
+      width:100%;
+      padding:20px;
+    }
+}
+
+.grid-item:hover .grid-item-hover {
+  opacity:1;
+}
 
 
  

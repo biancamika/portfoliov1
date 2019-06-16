@@ -1,10 +1,11 @@
 ---
 layout: post
 title:  "Pinpointe App Pitch"
-date:   2019-05-30 12:26:41 +0800
+date:   2018-12-01 12:00:00 +0800
 categories: art
 type: "Multimedia"
 intro: "This is a project I worked on."
+thumbnail: ../../assets/pinpointe.png
 ---
 
 # Pinpointe
