@@ -192,6 +192,15 @@
    }
  }
 
+ @media (max-width: 768px) {
+
+  .wrapper {
+    padding-right:0px;
+    padding-left:0px;
+  }
+
+}
+
  .site-header, .footer-heading, .footer-col-wrapper, .post {
     padding-right: $spacing-unit * 2;
     padding-left: $spacing-unit * 2;
@@ -209,8 +218,18 @@
 
  /* about */
 
-  .header {
+
+ .header {
+  background-image:url('../../assets/websiteheader.png');
+  background-size:cover;
+  background-position:center;
   height:100vh;
+ }
+
+ @media (min-width: 1200px) {
+  .short-about {
+    height:100vh;
+  }
  }
  
  .short-about {
@@ -240,17 +259,20 @@
     ul {
       list-style-type: none;
       font-size: 300%;
-      text-align:left;
       max-width: 360px;
+      display:block;
+      margin:0 auto;
+      margin-right: 3vw;
 
       li {
         display:inline-block;
-        margin-left: 2.9px;
+        margin-left: 3px;
       }
     }
+    
 
       img {
-        max-width: 355px;
+        width: 360px;
         display:block;
         -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
         filter: grayscale(100%);
@@ -264,14 +286,27 @@
           -webkit-transition: 0.5s ease;
           transition: 0.5s ease;
         }
+
+      }
+
+       /* for mobile */
+      @media (max-width: 768px) {
+
+        img {
+          width:100%;
+        }
+
+        ul {
+          text-align:center;
+          max-width: 540px;
+          font-size: 350%;
+          margin-bottom: 2vh;
+        }
+
       }
     
     .short-about-profile {
-      top: 2.2vh;
-    }
-
-    .short-about-text {
-      padding-left: 2vw;
+      top: 2.7vh;
     }
  }
 

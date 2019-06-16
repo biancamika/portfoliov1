@@ -192,6 +192,23 @@
         font-size: 155%;
         width:calc(#{$content-width} /  1.1);
       }
+
+      /* for mobile */
+      @media (max-width: 768px) {
+
+        h1 {
+          font-size: 345%;
+          text-align:center;
+          max-width: 540px;
+          margin-top: 6vh;
+        }
+
+        p {
+          width:540px;
+        }
+
+      }
+
   }
   
   
