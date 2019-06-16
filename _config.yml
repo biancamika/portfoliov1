@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "biancamikaila.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: biancamikaila
-github_username:  biancamika
+instagram_username:  biancamikaila
 
 # Project URL
 permalink: /work/:title/
