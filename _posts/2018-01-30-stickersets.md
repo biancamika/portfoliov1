@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Sticker Set Designs"
-date:   2019-05-30 12:26:41 +0800
+date:   2018-01-30 12:26:41 +0800
 categories: art
 type: "Digital Art"
 intro: "This is a project I worked on."

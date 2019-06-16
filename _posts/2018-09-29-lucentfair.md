@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Lucent Fair 2018"
-date:   2019-05-30 12:26:41 +0800
+date:   2018-09-29 12:26:41 +0800
 categories: design
 type: "Brand Identity"
 thumbnail: ../../assets/lucentlogo.png
