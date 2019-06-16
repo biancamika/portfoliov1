@@ -183,11 +183,14 @@
 
       h1 {
         font-family: Noe Display Medium;
-        font-size: 505%;
+        font-size: 465%;
+        line-height: 100%;
+        margin-bottom: 2vh;
       }
 
       p {
         font-size: 155%;
+        width:calc(#{$content-width} /  1.1);
       }
   }
   
