@@ -263,7 +263,7 @@
     background-color: $shade-color;
     height: 100vh;
 
-    iframe {
+    img {
       height:100%;
       width:100%;
       object-fit:cover;
@@ -277,6 +277,13 @@
         -webkit-transition: 0.5s ease;
         transition: 0.5s ease;
       }
+
+    }
+  }
+
+  @include media-query($on-palm) {
+    .post-video {
+      max-height:300px;
     }
   }
 

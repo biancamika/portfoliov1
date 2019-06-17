@@ -5,8 +5,7 @@ date:   2019-05-30 12:26:41 +0800
 categories: art
 type: "Digital Art"
 intro: "Digital art and multimedia for a feminist art studio"
-thumbnail: ../../assets/planners.jpeg
-video: https://www.youtube.com/embed/8xcL0HdEaaI
+thumbnail: ../../assets/womancreate.gif
 ---
 
 # Woman, Create

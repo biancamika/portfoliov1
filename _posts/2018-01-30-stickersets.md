@@ -5,7 +5,7 @@ date:   2018-01-30 12:26:41 +0800
 categories: art
 type: "Digital Art"
 intro: "This is a project I worked on."
-thumbnail: ../../assets/stickermockup.png
+thumbnail: ../../assets/stickers.gif
 ---
 ## Sticker Set Designs
 I created these two sticker sets as a way of finding my artistic style. 
