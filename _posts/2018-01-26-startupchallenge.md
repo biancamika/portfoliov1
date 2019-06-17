@@ -23,21 +23,11 @@ Based on the theme, the logo is a person on a location pin. The person's head is
 
 ![youthhack](../../assets/yhlogo.png)
 
-# Type
-
-Primary Font                        | Secondary Font                      | Teritary Font 
-:----------------------------------:|:-----------------------------------:|:----------------------------------:
-![sticker](../../assets/yhfont1.png)|![sticker](../../assets/yhfont2.jpg) | ![sticker](../../assets/yhfont3.png)
-
-Halogen by Pixel Surplus is the logotype.
-Roboto Black is the font used for headings and titles.
-Mukta Vaani is the font used for body text.
-
 # Color
 
-The main colors used were teal and yellow, along with their shades. These colors were also paired with neutrals (e.g. white, beige, brown) in making collaterals.
-
 ![youthhack](../../assets/yhcolor.png)
+
+The main colors used were teal and yellow, along with their shades. These colors were also paired with neutrals (e.g. white, beige, brown) in making collaterals.
 
 # Collateral
 

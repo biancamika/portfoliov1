@@ -209,8 +209,8 @@
 
 
  .post {
-   max-width: -webkit-calc(#{$content-width} * 1.25);
-   max-width:         calc(#{$content-width} * 1.25);
+   max-width: -webkit-calc(#{$content-width} * 1);
+   max-width:         calc(#{$content-width} * 1);
    padding-top: $spacing-unit * 1.5;
    padding-bottom: $spacing-unit;
    margin-right: auto;
@@ -224,6 +224,19 @@
       left:0;
       display:block;
       width: 100vw !important;
+    }
+
+    a, a:visited {
+      text-decoration:underline;
+      color: $text-color !important;
+      -webkit-transition: 0.5s ease;
+      transition: 0.5s ease;
+
+      &:hover {
+        color:$shade-color !important;
+        -webkit-transition: 0.5s ease;
+        transition: 0.5s ease;
+      }
     }
  }
 

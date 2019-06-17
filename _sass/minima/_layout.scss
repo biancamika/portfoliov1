@@ -332,8 +332,30 @@
       }
     }
 
-    .e-content {
+    p {
       text-align:justify;
+      @include relative-font-size(1.15);
+
+      @include media-query($on-laptop) {
+        @include relative-font-size(1.025);
+      }
+    }
+
+    ul, ol {
+      @include relative-font-size(1.15);
+    }
+
+    iframe {
+      width:100%;
+      min-height:450px;
+
+      @include media-query($on-palm) {
+        min-height:261px;
+      }
+    }
+
+    img {
+      width:100%;
     }
   }
   

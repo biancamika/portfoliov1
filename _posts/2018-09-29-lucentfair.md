@@ -8,15 +8,35 @@ thumbnail: ../../assets/lucent.gif
 intro: "Identity and collateral for a mental healthy creativity fair"
 ---
 
-Lucent (previously named Luna) is an annual creativity fair that aims to promote mental health awareness through art, workshops, talks, and performances. As the Creatives Head, I was responsible for designing of the event's identity and collateral + managing a team of ~5 creatives.
+[Lucent](https://www.facebook.com/lucentfair/) (previously named Luna) is an annual creativity fair that aims to promote mental health awareness through art, workshops, talks, and performances. As the Creatives Head, I was responsible for designing of the event's identity and collateral + managing a team of ~5 creatives.
 
 ### Theme
-I based the design of the fair for the year 2018 on the sun, which conveyed multiple meanings: light, hope, warmth, etc.  
+A common thread I noticed in the stories of the mentally ill is that sadness is experienced as "a dark place". As a response to this, I decided to base the fair's theme on light. This can convey multiple positive meanings, like hope and warmth.  
+
+### Color
+
+![lucent](../../assets/lucentcolor.png)
+
+The fair's palette consists of muted primary colors. Beige is the neutral used along with this.
 
 ### Logo
 ![lucent](../../assets/lucentlogo.png)
 
-Credits to Gabrielle Larin for the logotype.
+The fair's logo is an eye with a sun as its pupil. It represents both hope and awareness.
+To give the fair's identity a "human" look, I decided to draw both the icon and logotype by hand. This was done through Procreate and Adobe Photoshop.  
+
+![lucent](../../assets/logosketch.png)
+<p style="text-align:center;color:grey;">Logotype sketches (left), approved sketch (right)</p>
+
+Credits to Gabrielle Larin for the logotype ideation.
 
 ### Collateral
+![lucent](../../assets/mainposter.png)
+![lucent](../../assets/lucentcollateral.png)
+
+### Results
+Compared to last year (with only ~50 participants), Lucent Fair 2018 was a success. Key success metrics include the following:
+- 150-200 participants
+- 3k+ reach (Facebook)
+- ~120k pesos in donations
   

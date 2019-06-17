@@ -6,7 +6,6 @@ categories: design
 type: "Brand Identity"
 intro: "Identity, collateral, and textile design for a mock K-Pop-inspired clothing brand."
 thumbnail: ../../assets/allkilldp.png
-video: https://www.youtube.com/embed/uktzMcIzAec?rel=0&amp;showinfo=0
 ---
 
 All-kill: (n.) when a song reaches #1 in all realtime charts.
