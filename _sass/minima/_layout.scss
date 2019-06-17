@@ -189,7 +189,7 @@
       }
 
       p {
-        font-size: 155%;
+        font-size: 151%;
         width:calc(#{$content-width} /  1.1);
       }
 
@@ -258,6 +258,31 @@
   /**
    * Posts
    */
+
+  .post-video {
+    background-color: $shade-color;
+    height: 100vh;
+
+    iframe {
+      height:100%;
+      width:100%;
+      object-fit:cover;
+      z-index:-2;
+      opacity:0.6;
+      -webkit-transition: 0.5s ease;
+      transition: 0.5s ease;
+
+      &:hover {
+        opacity:1;
+        -webkit-transition: 0.5s ease;
+        transition: 0.5s ease;
+      }
+    }
+  }
+
+
+
+
   .post-header {
     margin-bottom: $spacing-unit;
   }
@@ -298,6 +323,10 @@
       @include media-query($on-laptop) {
         @include relative-font-size(1.125);
       }
+    }
+
+    .e-content {
+      text-align:justify;
     }
   }
   

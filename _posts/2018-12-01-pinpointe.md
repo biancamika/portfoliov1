@@ -6,6 +6,7 @@ categories: art
 type: "Multimedia"
 intro: "This is a project I worked on."
 thumbnail: ../../assets/pinpointe.png
+video: https://www.youtube.com/embed/EZwmT5467Pc
 ---
 
 # Pinpointe
@@ -13,5 +14,3 @@ Pinpointe is a hypothetical app that assists ballet-based dancers in correcting 
 
 ### Why?
 This idea was born from my frustrations as a dance student. Jealous of the hyperflexible dancers on Instagram, I would stretch frequently. However, I’d overexert my hip flexors in the process. I had to be taught that strengthening was also crucial for improvement. Lack of knowledge = lack of body awareness. 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EZwmT5467Pc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

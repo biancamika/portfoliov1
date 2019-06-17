@@ -4,8 +4,9 @@ title:  "Woman, Create Internship"
 date:   2019-05-30 12:26:41 +0800
 categories: art
 type: "Digital Art"
-intro: "This is a project I worked on."
+intro: "Digital art and multimedia for a feminist art studio"
 thumbnail: ../../assets/planners.jpeg
+video: https://www.youtube.com/embed/8xcL0HdEaaI
 ---
 
 # Woman, Create
