@@ -19,8 +19,10 @@ description: >- # this means to ignore newlines until "baseurl:"
   Hi, I'm Bianca! I draw, design, and dance.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "biancamikaila.com" # the base hostname & protocol for your site, e.g. http://example.com
+facebook_username: biancamikailaa
 twitter_username: biancamikaila
 instagram_username:  biancamikaila
+linkedin_username: biancamikaila
 
 # Project URL
 permalink: /work/:title/

@@ -66,7 +66,7 @@ After the event, all of the participants' proposals were collated and visualized
 - 258 applicants
 
 # Credits
-- Bianca Bravo, Project Head *(thank you for all the direction!)*
-- Frances Roberto & Chia Amisola, Marketing Core - Design members *(thank you for helping me finish everything!)*
+- Bianca Bravo: Project Head *(thank you for all the direction!)*
+- Frances Roberto & Chia Amisola: Marketing Core - Design members *(thank you for helping me finish everything!)*
 
 

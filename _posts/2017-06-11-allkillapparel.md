@@ -4,8 +4,8 @@ title:  "Allkill Apparel"
 date:   2017-06-11 12:26:41 +0800
 categories: design
 type: "Brand Identity"
-intro: "Identity, collateral, and textile design for a mock K-Pop-inspired clothing brand."
-thumbnail: ../../assets/allkilldp.png
+intro: "Identity, collateral, and textile design for a mock K-Pop-inspired clothing brand (still updating)"
+thumbnail: ../../assets/allkill.gif
 ---
 
 All-kill: (n.) when a song reaches #1 in all realtime charts.
@@ -14,3 +14,6 @@ Allkill Apparel was a mockup clothing brand that created minimalistic clothes in
 
 # 21st Century
 The brand's first collection, “21st Century”, was inspired by BTS’ album “Wings”.
+
+# Collateral
+![allkill](../../assets/allkillcollateral.png)
